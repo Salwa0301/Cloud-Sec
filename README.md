@@ -1,5 +1,5 @@
 # Cloud-Sec
-create code that can automatically exploit its documented vulnerabilities.
+create code that can automatically exploit its documented vulnerabilities. 
 
 **Python Code for Cross-Site Scripting**
 
